@@ -11,11 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/BrandonDyer64/ViavChild.git"
   },
-  "keywords": ["bot"],
+  "keywords": [
+    "bot"
+  ],
   "author": "Brandon Dyer",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/BrandonDyer64/ViavChild/issues"
   },
-  "homepage": "https://github.com/BrandonDyer64/ViavChild#readme"
+  "homepage": "https://github.com/BrandonDyer64/ViavChild#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3"
+  }
 }
