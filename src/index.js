@@ -16,9 +16,7 @@ function voiceChannel(guildId, channelId) {
 }
 
 app.post('/play', (req, res) => {
-  console.log(req.body)
   voiceChannel(req.body.guild.id, req.body.voiceChannel.id).join()
-  console.log('ouch')
   res.json({ success: true, echo: req.body })
 })
 
