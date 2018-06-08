@@ -1,0 +1,21 @@
+{
+  "name": "viav-child",
+  "version": "1.0.0",
+  "description": "the music bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonDyer64/ViavChild.git"
+  },
+  "keywords": ["bot"],
+  "author": "Brandon Dyer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BrandonDyer64/ViavChild/issues"
+  },
+  "homepage": "https://github.com/BrandonDyer64/ViavChild#readme"
+}
